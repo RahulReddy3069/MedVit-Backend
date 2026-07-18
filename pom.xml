@@ -64,13 +64,18 @@
             <scope>runtime</scope>
         </dependency>
 
-        <!-- PostgreSQL Driver (for Render.com) -->
+        <!-- MySQL Driver -->
         <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
             <scope>runtime</scope>
         </dependency>
-        
+
+        <!-- Spatial Hibernate Support for MySQL Point mappings -->
+        <dependency>
+            <groupId>org.hibernate.orm</groupId>
+            <artifactId>hibernate-spatial</artifactId>
+        </dependency>
 
         
         <!-- Lombok for helper getters/setters -->
